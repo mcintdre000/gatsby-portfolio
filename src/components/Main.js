@@ -155,7 +155,7 @@ Technologies used:</p>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
+              <li><button type="submit" value="Send Message" className="special"></button></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
