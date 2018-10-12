@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/adventure-project-image.png'
-import pic03 from '../images/adventure-project-image-2.png'
-import pic04 from '../images/a-glass-of-harmony-image.png'
-import pic05 from '../images/a-glass-of-harmony-image-2.png'
+// import pic02 from '../images/adventure-project-image.png'
+// import pic03 from '../images/adventure-project-image-2.png'
+// import pic04 from '../images/a-glass-of-harmony-image.png'
+// import pic05 from '../images/a-glass-of-harmony-image-2.png'
 import pic06 from '../images/about-pic.jpg'
 
 
@@ -141,7 +141,7 @@ Technologies used:</p>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="#" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
