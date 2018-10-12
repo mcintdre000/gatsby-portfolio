@@ -88,8 +88,8 @@ Technologies used:</p>
               Hosted Project with Digital Ocean on Ubuntu server
             </li>
           </ul>
-          <span className="image main"><img src={pic02} alt="adventure project site 1" /></span>
-          <span className="image main"><img src={pic03} alt="adventure project site 2" /></span>
+          {/* <span className="image main"><img src={pic02} alt="adventure project site 1" /></span> */}
+          {/* <span className="image main"><img src={pic03} alt="adventure project site 2" /></span> */}
           {close}
         </article>
 
@@ -128,8 +128,8 @@ Technologies used:</p>
               Hosted Project with Digital Ocean on Ubuntu server
             </li>
           </ul>
-          <span className="image main"><a href='https://aglassofharmony.com/'><img src={pic04} alt="a glass of harmony site home page" /></a></span>
-          <span className="image main"><a href='https://aglassofharmony.com/products'><img src={pic05} alt="a glass of harmony site product page" /></a></span>
+          {/* <span className="image main"><a href='https://aglassofharmony.com/'><img src={pic04} alt="a glass of harmony site home page" /></a></span> */}
+          {/* <span className="image main"><a href='https://aglassofharmony.com/products'><img src={pic05} alt="a glass of harmony site product page" /></a></span> */}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
