@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-// import pic01 from '../images/pic01.jpg'
-// import pic02 from '../images/Adventure-Project-Image.png'
-// import pic03 from '../images/Adventure-Project-Image-2.png'
-// import pic04 from '../images/A-Glass-of-Harmony-Image.png'
-// import pic05 from '../images/A-Glass-of-Harmony-Image-2.png'
-// import pic06 from '../images/about-pic.jpg'
+import pic01 from '../images/pic01.jpg'
+import pic02 from '../images/Adventure-Project-Image.png'
+import pic03 from '../images/Adventure-Project-Image-2.png'
+import pic04 from '../images/A-Glass-of-Harmony-Image.png'
+import pic05 from '../images/A-Glass-of-Harmony-Image-2.png'
+import pic06 from '../images/about-pic.jpg'
 
 
 class Main extends React.Component {
@@ -19,7 +19,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          {/* <span className="image main"><img src={pic01} alt="screen with code" /></span> */}
+          <span className="image main"><img src={pic01} alt="screen with code" /></span>
           <p>I'm a passionate and driven Junior Full-Stack web developer looking for new opportunites to expand my experience/knowledge. By the way, check out my <a href="#work">awesome work</a>.</p>
           <p>My technology stack consists of knowledge and experience with:</p>
           <ul>
@@ -88,8 +88,8 @@ Technologies used:</p>
               Hosted Project with Digital Ocean on Ubuntu server
             </li>
           </ul>
-          {/* <span className="image main"><img src={pic02} alt="adventure project site 1" /></span> */}
-          {/* <span className="image main"><img src={pic03} alt="adventure project site 2" /></span> */}
+          <span className="image main"><img src={pic02} alt="adventure project site 1" /></span>
+          <span className="image main"><img src={pic03} alt="adventure project site 2" /></span>
           {close}
         </article>
 
@@ -128,13 +128,13 @@ Technologies used:</p>
               Hosted Project with Digital Ocean on Ubuntu server
             </li>
           </ul>
-          {/* <span className="image main"><a href='https://aglassofharmony.com/'><img src={pic04} alt="a glass of harmony site home page" /></a></span> */}
-          {/* <span className="image main"><a href='https://aglassofharmony.com/products'><img src={pic05} alt="a glass of harmony site product page" /></a></span> */}
+          <span className="image main"><a href='https://aglassofharmony.com/'><img src={pic04} alt="a glass of harmony site home page" /></a></span>
+          <span className="image main"><a href='https://aglassofharmony.com/products'><img src={pic05} alt="a glass of harmony site product page" /></a></span>
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          {/* <span className="image main"><img src={pic06} alt="" /></span> */}
+          <span className="image main"><img src={pic06} alt="" /></span>
           <p>I am a former Home & Commercial Claims Specialist for State Farm transitioning careers into web and software development. I'm excited to embark into the world of web application development to further my knowledge and skillset. I'm interested in employment opportunities where I will be impactful in the development process and be in an environment that encourages personal development.</p>
           {close}
         </article>
