@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/Adventure-Project-Image.png'
-import pic03 from '../images/Adventure-Project-Image-2.png'
-import pic04 from '../images/A-Glass-of-Harmony-Image.png'
-import pic05 from '../images/A-Glass-of-Harmony-Image-2.png'
+import pic02 from '../images/Adventure-Project-Image.PNG'
+import pic03 from '../images/Adventure-Project-Image-2.PNG'
+import pic04 from '../images/A-Glass-of-Harmony-Image.PNG'
+import pic05 from '../images/A-Glass-of-Harmony-Image-2.PNG'
 import pic06 from '../images/about-pic.jpg'
 
 
