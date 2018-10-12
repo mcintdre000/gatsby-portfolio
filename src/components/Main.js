@@ -148,7 +148,7 @@ Technologies used:</p>
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
