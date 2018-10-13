@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
-// import pic02 from '../images/adventure-project-image.png'
-// import pic03 from '../images/adventure-project-image-2.png'
-// import pic04 from '../images/a-glass-of-harmony-image.png'
-// import pic05 from '../images/a-glass-of-harmony-image-2.png'
+import pic02 from '../images/adventure-project-image.png'
+import pic03 from '../images/adventure-project-image-2.png'
+import pic04 from '../images/a-glass-of-harmony-image.png'
+import pic05 from '../images/a-glass-of-harmony-image-2.png'
 import pic06 from '../images/about-pic.jpg'
 
 
@@ -88,8 +88,8 @@ Technologies used:</p>
               Hosted Project with Digital Ocean on Ubuntu server
             </li>
           </ul>
-          {/* <span className="image main"><img src={pic02} alt="adventure project site 1" /></span> */}
-          {/* <span className="image main"><img src={pic03} alt="adventure project site 2" /></span> */}
+          <span className="image main"><img src={pic02} alt="adventure project site 1" /></span>
+          <span className="image main"><img src={pic03} alt="adventure project site 2" /></span>
           {close}
         </article>
 
@@ -128,8 +128,8 @@ Technologies used:</p>
               Hosted Project with Digital Ocean on Ubuntu server
             </li>
           </ul>
-          {/* <span className="image main"><a href='https://aglassofharmony.com/'><img src={pic04} alt="a glass of harmony site home page" /></a></span> */}
-          {/* <span className="image main"><a href='https://aglassofharmony.com/products'><img src={pic05} alt="a glass of harmony site product page" /></a></span> */}
+          <span className="image main"><a href='https://aglassofharmony.com/'><img src={pic04} alt="a glass of harmony site home page" /></a></span>
+          <span className="image main"><a href='https://aglassofharmony.com/products'><img src={pic05} alt="a glass of harmony site product page" /></a></span>
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
