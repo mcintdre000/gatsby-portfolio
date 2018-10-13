@@ -141,10 +141,11 @@ Technologies used:</p>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="field half first">
+            <input type="hidden" name="form-name" value="contact" />
               <label>Name</label>
-              <input type="hidden" type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label>Email</label>
