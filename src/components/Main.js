@@ -172,7 +172,7 @@ Technologies used:</p>
           <h2 className="major">Contact</h2>
           <form 
             name="contact" 
-            method="POST" 
+            method="post" 
             data-netlify="true" 
             data-netlify-honeypot="bot-field" 
             onSubmit={this.handleSubmit}
@@ -198,7 +198,7 @@ Technologies used:</p>
               <textarea name="message" id="message" rows="4" onChange={this.handleChange}></textarea>
             </div>
             <ul className="actions">
-              <li><button type="submit" className="special" /></li>
+              <li><button type="submit" className="special">Send</button></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
