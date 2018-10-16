@@ -198,7 +198,7 @@ Technologies used:</p>
               <textarea name="message" id="message" rows="4" onChange={this.handleChange}></textarea>
             </div>
             <ul className="actions">
-              <li><input type="submit" className="special" /></li>
+              <li><button type="submit" className="special" /></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
