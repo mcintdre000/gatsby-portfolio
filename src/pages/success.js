@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from "gatsby";
 import Helmet from 'react-helmet'
+import Layout from '../components/layout'
 
 const Success = (props) => (
-    <div>
+    <Layout>
         <Helmet>
             <title>Success Page</title>
             <meta name="description" content="Success Page" />
@@ -10,9 +12,10 @@ const Success = (props) => (
 
         <div>
             <h1>Thank you!</h1>
-            <p>This is a custom thank you page for form submissions</p>
+            <p>Please allow a 24 hour period for responses</p>
+            <Link to="/"><h4>Home</h4></Link>
         </div>
-    </div>
+    </Layout>
 )
 
 export default Success
