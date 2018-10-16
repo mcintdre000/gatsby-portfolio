@@ -1,4 +1,5 @@
 import React from 'react'
+import { navigateTo } from "gatsby-link";
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
@@ -36,6 +37,7 @@ class Main extends React.Component {
         ...this.state
       })
     })
+      .then(() => navigateTo(form.getAttribute("action")))
       .catch(error => alert(error));
   };
 
@@ -173,6 +175,7 @@ Technologies used:</p>
           <form 
             name="contact" 
             method="post" 
+            action="/thanks/"
             data-netlify="true" 
             data-netlify-honeypot="bot-field" 
             onSubmit={this.handleSubmit}
