@@ -8,6 +8,12 @@ import pic04 from '../images/a-glass-of-harmony-image.png'
 import pic05 from '../images/a-glass-of-harmony-image-2.png'
 import pic06 from '../images/about-pic.jpg'
 
+function encode(data) {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
+
 
 class Main extends React.Component {
   constructor(props) {
