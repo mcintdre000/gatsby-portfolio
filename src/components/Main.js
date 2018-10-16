@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigateTo } from "gatsby-link";
+// import { navigateTo } from "gatsby-link";
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
@@ -172,19 +172,21 @@ Technologies used:</p>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="bot-field" />
+          <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+
+            <input type="hidden" name="bot-field" />
+
             <div className="field half first">
                 <label htmlFor="name">Name</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" required/>
             </div>
             <div className="field half">
                 <label htmlFor="email">Email</label>
-                <input type="text" name="email" id="email" />
+                <input type="text" name="email" id="email" required/>
             </div>
             <div className="field">
                 <label htmlFor="message">Message</label>
-                <textarea name="message" id="message" rows="6"></textarea>
+                <textarea name="message" id="message" rows="6" required></textarea>
             </div>
             <ul className="actions">
                 <li><input type="submit" value="Send Message" className="special" /></li>
